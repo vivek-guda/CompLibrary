@@ -6,3 +6,19 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+:root {
+  --primary-text-color: #ff4d5a;
+  --secondary-text-color: #aaa;
+  --background-color: #072142;
+  --sidebar-color: #e4e4e4;
+  /* --sidebar-color : #031124; */
+  /* --secondary-light-theme-text-color: ; */
+  /* --secondary-dark-theme-text-color: #aaa; */
+  /* --light-theme-background-color: ; */
+  /* --dark-theme-background-color: #072142; */
+}
+
+body {
+  background-color: var(--background-color);
+}
