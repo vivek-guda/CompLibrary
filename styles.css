@@ -126,6 +126,10 @@ a {
     font-size: 2rem;
   }
 
+  .text-container > h2 {
+    font-size: 2rem;
+  }
+
   .text-container > p {
     font-size: 1rem;
   }
