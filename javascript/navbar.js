@@ -10,16 +10,20 @@ burgerMenu.addEventListener("click", () => {
 
 const addDarkTheme = () => {
   body.style.backgroundColor = "#072142";
-  body.style.color = "white";
+  body.style.color = "#e8e6e3";
   root.style.setProperty("--secondary-text-color", "#aaa");
   root.style.setProperty("--sidebar-color", "#041630");
+  root.style.setProperty("--footer-color", "#041225");
+  root.style.setProperty("--aside-color", "#091d38");
 };
 
 const addLightTheme = () => {
   body.style.backgroundColor = "#f5f5f7";
   body.style.color = "#3e4152";
   root.style.setProperty("--secondary-text-color", "#333");
-  root.style.setProperty("--sidebar-color", "");
+  root.style.setProperty("--sidebar-color", "#e4e4e4");
+  root.style.setProperty("--footer-color", "#ddd");
+  root.style.setProperty("--aside-color", "#eee");
 };
 
 const darkThemeToggleBtn = () => {

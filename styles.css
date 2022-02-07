@@ -1,4 +1,6 @@
+@import "./Components/style-sheet.css";
 @import "./css/nav.css";
+@import "./css/sidebar.css";
 @import "./css/footer.css";
 
 * {
@@ -10,15 +12,135 @@
 :root {
   --primary-text-color: #ff4d5a;
   --secondary-text-color: #aaa;
-  --background-color: #072142;
+  --background-color: #f5f5f7;
   --sidebar-color: #e4e4e4;
-  /* --sidebar-color : #031124; */
-  /* --secondary-light-theme-text-color: ; */
-  /* --secondary-dark-theme-text-color: #aaa; */
-  /* --light-theme-background-color: ; */
-  /* --dark-theme-background-color: #072142; */
+  --aside-color: #eee;
+  --footer-color: #ddd;
 }
 
 body {
   background-color: var(--background-color);
+  color: #3e4152;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main {
+  padding: 3rem;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 0px;
+  margin-bottom: 2rem;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  margin-right: 3rem;
+}
+
+.text-container > h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.text-container > h2 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.text-container > p {
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.btn-container > .btn:nth-child(1) {
+  margin-right: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background-color: var(--primary-text-color);
+  color: #e8e6e3;
+  border: 1px solid var(--primary-text-color);
+}
+
+.secondary-btn {
+  border: 1px solid var(--primary-text-color);
+  color: var(--primary-text-color);
+  background-color: transparent;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.code-snippet {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.code-snippet-display {
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 300px;
+  padding: 1rem 0;
+  overflow: auto;
+}
+
+.code-snippet-display iframe {
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 800px) {
+  .main {
+    padding: 2rem;
+  }
+
+  .text-container > h1 {
+    font-size: 2rem;
+  }
+
+  .text-container > p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    padding: 1rem;
+  }
+
+  .grid-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .text-container {
+    margin: 1.5rem 0 1rem;
+  }
 }
