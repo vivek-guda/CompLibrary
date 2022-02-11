@@ -67,9 +67,284 @@
           <h2 class="sidebar-title">Components</h2>
           <i class="fas fa-chevron-down fa-lg toggle-aside-btn"></i>
         </div>
-        <ul></ul>
+        <ul>
+          <li><a href="#lists" class="nav-links">Lists</a></li>
+          <li><a href="#typography" class="nav-links">Typography</a></li>
+        </ul>
       </aside>
-      <main class="docs-main"></main>
+      <main class="docs-main">
+        <section id="lists" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Lists</h1>
+          <p class="font-size-md">
+            Lists can be used at so many places, navigation bar, stacked
+            notifications, article pages, etc.
+          </p>
+
+          <h2 class="font-size-lg">Examples of Unordered List</h2>
+          <p class="font-size-md">
+            Add class according to bullet style. Copy html code below and add
+            your desired list items.
+          </p>
+          <div class="component-display-container">
+            <div class="list-container">
+              <ul>
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ul>
+            </div>
+            <div class="list-container">
+              <ul class="list-style-circle">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ul>
+            </div>
+            <div class="list-container">
+              <ul class="list-style-square">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520list%2520style%2520disc%2520--%253E%250A%253Cul%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253C%21--%2520list%2520style%2520circle%2520--%253E%250A%253Cul%2520class%253D%2522list-style-circle%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E%250A%250A%253C%21--%2520list%2520style%2520square%2520--%253E%250A%253Cul%2520class%253D%2522list-style-square%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Example of Ordered List with bullets</h2>
+          <p class="font-size-md">
+            Add class according to bullet style. Copy html code below and add
+            your desired list items. To reverse the order of ordered list, add
+            <span class="font-weight-700 style-classes">reversed</span>
+            attribute to
+            <span class="font-weight-700 style-classes">ol</span> element.
+          </p>
+          <div class="component-display-container">
+            <div class="list-container">
+              <ol>
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ol>
+            </div>
+            <div class="list-container">
+              <ol class="list-style-small-alpha">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ol>
+            </div>
+            <div class="list-container">
+              <ol reversed class="list-style-small-alpha">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ol>
+            </div>
+            <div class="list-container">
+              <ol class="list-style-capital-alpha">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ol>
+            </div>
+            <div class="list-container">
+              <ol class="list-style-small-roman">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ol>
+            </div>
+            <div class="list-container">
+              <ol class="list-style-capital-roman">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ol>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Col%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--%2520list%2520style%2520small%2520alphabets%2520--%253E%250A%253Col%2520class%253D%2522list-style-small-alpha%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--%2520reversed%2520list%2520style%2520small%2520alphabets%2520--%253E%250A%253Col%2520reversed%2520class%253D%2522list-style-small-alpha%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--%2520list%2520style%2520capital%2520alphabets%2520--%253E%250A%253Col%2520class%253D%2522list-style-capital-alpha%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--%2520list%2520style%2520small%2520roman%2520--%253E%250A%253Col%2520class%253D%2522list-style-small-roman%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Fol%253E%250A%250A%253C%21--%2520list%2520style%2520capital%2520roman%2520--%253E%250A%253Col%2520class%253D%2522list-style-capital-roman%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Fol%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Example of List with no bullets</h2>
+          <p class="font-size-md">
+            If you want list stacked but with no bullet and indentation, then
+            you can add
+            <span class="font-weight-700 style-classes">list-style-none</span>
+            class.
+          </p>
+          <div class="component-display-container">
+            <div class="list-container">
+              <ul class="list-style-none">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253C%21--%2520list%2520style%2520none%2520--%253E%250A%253Cul%2520class%253D%2522list-style-none%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Example of List with inline items</h2>
+          <p class="font-size-md">
+            If you want list items in same line instead of stacked, you can add
+            <span class="font-weight-700 style-classes">inline-list</span> class
+            to make it inline. And you can also add
+            <span class="font-weight-700 style-classes">list-style-none</span>
+            class to remove bullets.
+          </p>
+          <div class="component-display-container">
+            <div class="list-container">
+              <ul class="list-style-none inline-list">
+                <li>List item1</li>
+                <li>List item2</li>
+                <li>List item3</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-style-none%2520inline-list%2522%253E%250A%2520%2520%253Cli%253EList%2520item1%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item2%253C%252Fli%253E%250A%2520%2520%253Cli%253EList%2520item3%253C%252Fli%253E%250A%253C%252Ful%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+        <section id="typography" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Typography</h1>
+          <p class="font-size-md">Check out below text utilities.</p>
+
+          <h2 class="font-size-lg">Examples of Font Size</h2>
+          <p class="font-size-md">
+            The following classes can be used to set your font sizes :
+            <span class="font-weight-700 style-classes"
+              >font-size-3xl, font-size-2xl, font-size-xl, font-size-lg,
+              font-size-md, font-size-rg, font-size-sm, font-size-xs</span
+            >.
+          </p>
+          <div class="component-display-container flex-column">
+            <p class="font-size-3xl">3XL Font Size</p>
+            <p class="font-size-2xl">2XL Font Size</p>
+            <p class="font-size-xl">XL Font Size</p>
+            <p class="font-size-lg">LG Font Size</p>
+            <p class="font-size-md">MD Font Size</p>
+            <p class="font-size-rg">RG Font Size</p>
+            <p class="font-size-sm">SM Font Size</p>
+            <p class="font-size-xs">XS Font Size</p>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522font-size-3xl%2522%253E3XL%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-2xl%2522%253EXL%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-xl%2522%253EXL%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-lg%2522%253ELG%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-md%2522%253EMD%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-rg%2522%253ERG%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-sm%2522%253ESM%2520Font%2520Size%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-xs%2522%253EXS%2520Font%2520Size%253C%252Fp%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Examples of Font Weight</h2>
+          <p class="font-size-md">
+            The following classes can be used to set your font weights :
+            <span class="font-weight-700 style-classes"
+              >font-weight-700, font-weight-500, font-weight-300</span
+            >.
+          </p>
+          <div class="component-display-container flex-column">
+            <p class="font-size-2xl font-weight-700">Font Weight 700</p>
+            <p class="font-size-2xl font-weight-500">Font Weight 500</p>
+            <p class="font-size-2xl font-weight-300">Font Weight 300</p>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522font-size-2xl%2520font-weight-700%2522%253EFont%2520Weight%2520700%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-2xl%2520font-weight-500%2522%253EFont%2520Weight%2520500%253C%252Fp%253E%250A%253Cp%2520class%253D%2522font-size-2xl%2520font-weight-300%2522%253EFont%2520Weight%2520500%253C%252Fp%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <h2 class="font-size-lg">Examples of Text Alignment</h2>
+          <p class="font-size-md">
+            The following classes can be used to align your text :
+            <span class="font-weight-700 style-classes"
+              >text-left, text-center, text-right</span
+            >.
+          </p>
+          <div class="component-display-container">
+            <div style="width: 100%">
+              <h2 class="text-left">Text Left</h2>
+              <h2 class="text-center">Text Center</h2>
+              <h2 class="text-right">Text Right</h2>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522text-left%2522%253EText%2520Left%253C%252Fh2%253E%250A%253Ch2%2520class%253D%2522text-center%2522%253EText%2520Center%253C%252Fh2%253E%250A%253Ch2%2520class%253D%2522text-right%2522%253EText%2520Right%253C%252Fh2%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Examples of Some Extra Styles</h2>
+          <p class="font-size-md">
+            You can use
+            <span class="font-weight-700 style-classes"
+              >text-strike-through</span
+            >
+            to strike-through the text and
+            <span class="font-weight-700 style-classes">text-underline</span> to
+            underline the text.
+          </p>
+          <div class="component-display-container">
+            <div style="width: 100%">
+              <h2 class="text-strike-through">Text Strike Through</h2>
+              <h2 class="text-underline">Text Underline</h2>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch2%2520class%253D%2522text-strike-through%2522%253EText%2520Strike%2520Through%253C%252Fh2%253E%250A%253Ch2%2520class%253D%2522text-underline%2522%253EText%2520Underline%253C%252Fh2%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+      </main>
     </div>
     <footer class="footer">
       <p class="footer-header">
