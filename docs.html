@@ -68,11 +68,182 @@
           <i class="fas fa-chevron-down fa-lg toggle-aside-btn"></i>
         </div>
         <ul>
+          <li><a href="#avatar" class="nav-links">Avatar</a></li>
+          <li><a href="#badge" class="nav-links">Badge</a></li>
           <li><a href="#lists" class="nav-links">Lists</a></li>
           <li><a href="#typography" class="nav-links">Typography</a></li>
         </ul>
       </aside>
       <main class="docs-main">
+        <section id="avatar" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Avatar</h1>
+          <p class="font-size-md">
+            Avatar can be used to show user's profile picture on profile
+            information page, on navigation bar, in blogs grid items.
+          </p>
+
+          <h2 class="font-size-lg">Examples of Image Avatar</h2>
+          <p class="font-size-md">
+            Avatar is available in 4 different sizes. You can use image in
+            Avatar. You need to include class avatar and for size add class
+            according to size
+            <span class="font-weight-700 style-classes"
+              >avatar-lg-size, avatar-md-size, avatar-sm-size,
+              avatar-xs-size</span
+            >
+            (e.g. class="<span class="font-weight-700 style-classes"
+              >avatar avatar-lg-size</span
+            >") Don't forget to add Responsive Image class names for img
+            element.
+          </p>
+          <div class="component-display-container gap-20">
+            <div
+              class="avatar avatar-lg-size"
+              style="background-image: url('./assets/images/personimage.jpeg')"
+            ></div>
+            <div
+              class="avatar avatar-md-size"
+              style="background-image: url('./assets/images/personimage.jpeg')"
+            ></div>
+            <div
+              class="avatar avatar-sm-size"
+              style="background-image: url('./assets/images/personimage.jpeg')"
+            ></div>
+            <div
+              class="avatar avatar-xs-size"
+              style="background-image: url('./assets/images/personimage.jpeg')"
+            ></div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%250A%2520%2520class%253D%2522avatar%2520avatar-lg-size%2522%250A%2520%2520style%253D%2522background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%2522%250A%253E%253C%252Fdiv%253E%250A%253Cdiv%250A%2520%2520class%253D%2522avatar%2520avatar-md-size%2522%250A%2520%2520style%253D%2522background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%2522%250A%253E%253C%252Fdiv%253E%250A%253Cdiv%250A%2520%2520class%253D%2522avatar%2520avatar-sm-size%2522%250A%2520%2520style%253D%2522background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%2522%250A%253E%253C%252Fdiv%253E%250A%253Cdiv%250A%2520%2520class%253D%2522avatar%2520avatar-xs-size%2522%250A%2520%2520style%253D%2522background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%2522%250A%253E%253C%252Fdiv%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Examples of Text Avatar</h2>
+          <p class="font-size-md">
+            You can use initial letters of user in Avatar as well. You need to
+            include class
+            <span class="font-weight-700 style-classes">avatar-text</span> along
+            with <span class="font-weight-700 style-classes">avatar</span> and
+            size class. (e.g. class="<span class="font-weight-700 style-classes"
+              >avatar avatar-lg-size avatar-text</span
+            >")
+          </p>
+          <div class="component-display-container gap-20">
+            <div class="avatar avatar-lg-size avatar-text bg-blueblack-400">
+              VR
+            </div>
+            <div class="avatar avatar-md-size avatar-text bg-blueblack-400">
+              VR
+            </div>
+            <div class="avatar avatar-sm-size avatar-text bg-blueblack-400">
+              VR
+            </div>
+            <div class="avatar avatar-xs-size avatar-text bg-blueblack-400">
+              VR
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2520avatar-lg-size%2520avatar-text%2520bg-blueblack-400%2522%253EVR%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-md-size%2520avatar-text%2520bg-blueblack-400%2522%253EVR%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-sm-size%2520avatar-text%2520bg-blueblack-400%2522%253EVR%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar%2520avatar-xs-size%2520avatar-text%2520bg-blueblack-400%2522%253EVR%253C%252Fdiv%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+
+        <section id="badge" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Badge</h1>
+          <p class="font-size-md">
+            Badges are being used to display a notification count or status
+            information
+          </p>
+
+          <h2 class="font-size-lg">Examples of Status Badge</h2>
+          <p class="font-size-md">
+            There are 4 availabe badges : online -
+            <span class="font-weight-700 style-classes"
+              >status-badge-online</span
+            >, offline -
+            <span class="font-weight-700 style-classes"
+              >status-badge-offline</span
+            >, away -
+            <span class="font-weight-700 style-classes">status-badge-away</span
+            >, number -
+            <span class="font-weight-700 style-classes"
+              >status-badge-number</span
+            >
+            and should be used along with
+            <span class="font-weight-700 style-classes">status-badge</span>.
+          </p>
+          <div class="component-display-container gap-20">
+            <div class="badge-container">
+              <div
+                class="avatar avatar-lg-size"
+                style="
+                  background-image: url('./assets/images/personimage.jpeg');
+                "
+              >
+                <span class="status-badge status-badge-online"></span>
+              </div>
+            </div>
+            <div class="badge-container">
+              <div
+                class="avatar avatar-md-size"
+                style="
+                  background-image: url('./assets/images/personimage.jpeg');
+                "
+              >
+                <span class="status-badge status-badge-offline"></span>
+              </div>
+            </div>
+            <div class="badge-container">
+              <div
+                class="avatar avatar-sm-size"
+                style="
+                  background-image: url('./assets/images/personimage.jpeg');
+                "
+              >
+                <span class="status-badge status-badge-away"></span>
+              </div>
+            </div>
+            <div class="badge-container">
+              <div
+                class="avatar avatar-xs-size"
+                style="
+                  background-image: url('./assets/images/personimage.jpeg');
+                "
+              >
+                <span class="status-badge status-badge-away"></span>
+              </div>
+            </div>
+            <a>
+              <span class="badge-container">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="status-badge status-badge-number">4</span>
+              </span>
+            </a>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-md-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-sm-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-away%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-xs-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-away%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520This%2520is%2520used%2520to%2520display%2520number%2520of%2520notifictions%2520or%2520products--%253E%250A%253Ca%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-number%2522%253E4%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fa%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
         <section id="lists" class="section section-border-bottom">
           <h1 class="font-size-3xl">Lists</h1>
           <p class="font-size-md">
