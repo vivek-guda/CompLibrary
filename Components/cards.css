@@ -1,0 +1,105 @@
+.card-horizontal {
+  width: 475px;
+  height: 250px;
+  display: flex;
+  background-color: var(--footer-color);
+}
+
+.image-container {
+  width: 200px;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-desc {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn-container > .btn {
+  width: 100%;
+}
+
+@media (max-width: 450px) {
+  .card-horizontal {
+    width: 250px;
+    height: fit-content;
+    height: -moz-fit-content;
+    flex-wrap: wrap;
+  }
+  .image-container {
+    width: 100%;
+    height: 175px;
+  }
+  .card-desc {
+    padding: 0.75rem;
+    gap: 5px;
+  }
+  .card-header {
+    gap: 5px;
+  }
+}
+
+.card-vertical {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--footer-color);
+  width: 250px;
+  height: fit-content;
+  height: -moz-fit-content;
+}
+
+.card-vertical > .card-desc {
+  gap: 5px;
+  padding: 0.75rem;
+}
+
+.card-vertical .card-header {
+  gap: 5px;
+}
+
+.card-vertical .image-container {
+  width: 100%;
+  height: 175px;
+}
+
+.card-overlay {
+  position: relative;
+  pointer-events: none;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: var(--blueblack-900);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
