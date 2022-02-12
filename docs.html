@@ -68,13 +68,69 @@
           <i class="fas fa-chevron-down fa-lg toggle-aside-btn"></i>
         </div>
         <ul>
+          <li><a href="#alerts" class="nav-links">Alerts</a></li>
           <li><a href="#avatar" class="nav-links">Avatar</a></li>
           <li><a href="#badge" class="nav-links">Badge</a></li>
+          <li><a href="#button" class="nav-links">Button</a></li>
           <li><a href="#lists" class="nav-links">Lists</a></li>
           <li><a href="#typography" class="nav-links">Typography</a></li>
         </ul>
       </aside>
       <main class="docs-main">
+        <section id="alerts" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Alerts</h1>
+          <p class="font-size-md">
+            Alerts are used to attract user's attention for important
+            information without interrupting the user's flow.
+          </p>
+
+          <h2 class="font-size-lg">Examples of Alert Bar</h2>
+          <p class="font-size-md">
+            Alerts are available in 4 types- success alert, error alert, warning
+            alert, primary alert. To use this alert just use class name
+            <span class="font-weight-700 style-classes">alert</span> and also
+            add class according to alert type-
+            <span class="font-weight-700 style-classes"
+              >alert-primary, alert-danger, alert-success, alert-warning</span
+            >. (e.g.class="<span class="font-weight-700 style-classes"
+              >alert alert-primary</span
+            >"). You can copy html part from below code snippet.
+          </p>
+          <div class="component-display-container flex-column gap-20">
+            <div class="alert alert-primary">
+              A primary alert example with a text link
+              <a href="#" class="alert-link">Check it out!</a>
+            </div>
+            <div class="alert alert-success">
+              <span class="alert-icon"
+                ><i class="fas fa-check-circle"></i
+              ></span>
+              A success alert example
+            </div>
+            <div class="alert alert-danger">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i
+              ></span>
+              A danger alert example
+            </div>
+            <div class="alert alert-warning">
+              <span class="alert-icon"
+                ><i class="fas fa-exclamation-triangle"></i
+              ></span>
+              A danger alert example
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520A%2520primary%2520alert%2520example%2520with%2520a%2520text%2520link%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253ECheck%2520it%2520out%21%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520A%2520success%2520alert%2520example%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%250A%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%250A%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520%2520A%2520danger%2520alert%2520example%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522alert-icon%2522%250A%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%250A%2520%2520%253E%253C%252Fspan%253E%250A%2520%2520A%2520danger%2520alert%2520example%250A%253C%252Fdiv%253E%250A"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe
+            ></code>
+          </div>
+        </section>
         <section id="avatar" class="section section-border-bottom">
           <h1 class="font-size-3xl">Avatar</h1>
           <p class="font-size-md">
@@ -237,6 +293,108 @@
             <code>
               <iframe
                 src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-online%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-md-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-offline%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-sm-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-away%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-xs-size%2522%250A%2520%2520%2520%2520style%253D%2522%250A%2520%2520%2520%2520%2520%2520background-image%253A%2520url%28%27.%252Fassets%252Fimages%252Fpersonimage.jpeg%27%29%253B%250A%2520%2520%2520%2520%2522%250A%2520%2520%253E%250A%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-away%2522%253E%253C%252Fspan%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--%2520This%2520is%2520used%2520to%2520display%2520number%2520of%2520notifictions%2520or%2520products--%253E%250A%253Ca%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522status-badge%2520status-badge-number%2522%253E4%253C%252Fspan%253E%250A%2520%2520%253C%252Fspan%253E%250A%253C%252Fa%253E"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+        <section id="button" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Button</h1>
+          <p class="font-size-md">
+            Buttons are also called as call to action. We have range of buttons
+            and their states. You may use a tag or button element, you need to
+            add respective classes, and you are good to go.
+          </p>
+
+          <h2 class="font-size-lg">Examples of Solid Button</h2>
+          <p class="font-size-md">
+            Whenever you want your user to click on a link or button, use solid
+            buttons.
+          </p>
+          <div class="component-display-container gap-20">
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Secondary</button>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-warning">Warning</button>
+          </div>
+          <div class="code-snippet-display">
+            <code
+              ><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Examples of Outline Button</h2>
+          <p class="font-size-md">
+            If you want user not to pay attention to buttons then use outline
+            buttons. You can directly copy below html code and use it in your
+            app.
+          </p>
+          <div class="component-display-container gap-20">
+            <button class="btn btn-outline-primary">Primary</button>
+            <button class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn btn-outline-success">Success</button>
+            <button class="btn btn-outline-danger">Danger</button>
+            <button class="btn btn-outline-warning">Warning</button>
+          </div>
+          <div class="code-snippet-display">
+            <code
+              ><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline-warning%2522%253EWarning%253C%252Fbutton%253E%250A"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">Examples of Disabled Button</h2>
+          <p class="font-size-md">
+            If you want to style disabled button add
+            <span class="font-weight-700 style-classes">btn-disabled</span>
+            class and you are good to go.
+          </p>
+          <div class="component-display-container gap-20">
+            <button class="btn btn-primary btn-disabled">Primary</button>
+            <button class="btn btn-danger btn-disabled">Danger</button>
+          </div>
+          <div class="code-snippet-display">
+            <code
+              ><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-disabled%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-danger%2520btn-disabled%2522%253EDanger%253C%252Fbutton%253E%250A"
+                style="border: 0; transform: scale(1); overflow: hidden"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+
+          <h2 class="font-size-lg">
+            Examples of Different Button Sizes and Sharp Cornered Buttons
+          </h2>
+          <p class="font-size-md">
+            If you want to have different size for your button, you can add
+            <span class="font-weight-700 style-classes">btn-lg, btn-sm</span>
+            class for large and small size respectively. If you want sharp
+            corners you can add
+            <span class="font-weight-700 style-classes">btn-sharp</span>.
+          </p>
+          <div class="component-display-container gap-20">
+            <button class="btn btn-primary btn-lg">Large btn</button>
+            <button class="btn btn-warning btn-sm">Small btn</button>
+            <button class="btn btn-success btn-sharp">Sharp btn</button>
+          </div>
+          <div class="code-snippet-display">
+            <code
+              ><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-lg%2522%253ELarge%2520btn%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2520btn-sm%2522%253ESmall%2520btn%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2520btn-sharp%2522%253ESharp%2520btn%253C%252Fbutton%253E%250A"
                 style="border: 0; transform: scale(1); overflow: hidden"
                 sandbox="allow-scripts allow-same-origin"
               >
