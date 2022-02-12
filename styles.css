@@ -140,7 +140,7 @@ a {
   margin-bottom: 1.25rem;
 }
 
-.section p {
+.section > p {
   margin-bottom: 1.5rem;
 }
 
