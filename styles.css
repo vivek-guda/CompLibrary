@@ -245,3 +245,7 @@ a {
 .align-items-end {
   align-items: flex-end;
 }
+
+.gap-20 {
+  gap: 20px;
+}
