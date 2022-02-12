@@ -72,7 +72,7 @@ a {
   line-height: 1.75rem;
 }
 
-.btn-container > .btn:nth-child(1) {
+.button-container > .button:nth-child(1) {
   margin-right: 10px;
 }
 
