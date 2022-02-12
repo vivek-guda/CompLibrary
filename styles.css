@@ -76,7 +76,7 @@ a {
   margin-right: 10px;
 }
 
-.btn {
+.button {
   display: inline-block;
   padding: 0.5rem 1rem;
   margin-top: 20px;
@@ -135,12 +135,12 @@ a {
   border-bottom: 2px solid #777;
 }
 
-.section h1,
-.section h2 {
+.section > h1,
+.section > h2 {
   margin-bottom: 1.25rem;
 }
 
-.docs-main section p {
+.section p {
   margin-bottom: 1.5rem;
 }
 
