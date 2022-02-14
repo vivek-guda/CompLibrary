@@ -120,6 +120,9 @@ a {
 .code-snippet-display iframe {
   width: 100%;
   border: none;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
 }
 
 .docs-main {
