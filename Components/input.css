@@ -1,0 +1,40 @@
+.input {
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.input input {
+  padding: 0.45rem;
+  outline: none;
+  background-color: var(--blueblack-100);
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.input-default input {
+  border: 2px solid var(--blue-400);
+}
+
+.input-success input {
+  border: 2px solid var(--green-500);
+}
+
+.input-success span {
+  color: var(--green-500);
+}
+
+.input-warning input {
+  border: 2px solid var(--orange-500);
+}
+
+.input-warning span {
+  color: var(--orange-500);
+}
+
+.input-error input {
+  border: 2px solid var(--red-500);
+}
+
+.input-error span {
+  color: var(--red-500);
+}
