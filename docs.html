@@ -73,6 +73,7 @@
           <li><a href="#badge" class="nav-links">Badge</a></li>
           <li><a href="#button" class="nav-links">Button</a></li>
           <li><a href="#cards" class="nav-links">Cards</a></li>
+          <li><a href="#grid" class="nav-links">Grid</a></li>
           <li><a href="#image" class="nav-links">Image</a></li>
           <li><a href="#input" class="nav-links">Input</a></li>
           <li><a href="#lists" class="nav-links">Lists</a></li>
@@ -522,6 +523,104 @@
             <code
               ><iframe
                 src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-overlay%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522overlay-text%2522%253EOut%2520of%2520Stock%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-vertical%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522image-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522image%2522%2520src%253D%2522.%252Fmensjacket.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522font-size-md%2522%253EMen%2520Premium%2520Jacket%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-size-rg%2520font-weight-700%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25242000%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522font-size-sm%2520text-strike-through%2520text-blueblack-400%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25243999%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522font-weight-700%2520text-blueblack-400%2522%253E50%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-sharp%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2520btn-sharp%2522%253ESave%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+
+        <section id="grid" class="section section-border-bottom">
+          <h1 class="font-size-3xl">Grid</h1>
+          <p class="font-size-md">
+            Use grid when you want sections in view. Check below some examples of
+            side by side cards.
+          </p>
+  
+          <h2 class="font-size-lg">Example of side by side (50:50) layout</h2>
+          <p class="font-size-md">
+            Add
+            <span class="font-weight-700 style-classes">grid-50-50-layout</span>
+            class on wrapper div which is wrapping 2 divs.
+          </p>
+          <div class="component-display-container">
+            <div class="grid-50-50-layout">
+              <div>
+                <img src="./assets/images/natureImg.png" alt="" class="image-responsive" />
+              </div>
+              <div
+                class="display-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 class="font-size-xl text-center">Combo Packs</h1>
+                <p class="font-size-md text-center">Starting at Rs.1999</p>
+                <button class="btn btn-secondary">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code
+              ><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-50-50-layout%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FnatureImg.png%2522%2520alt%253D%2522%2522%2520class%253D%2522image-responsive%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522display-flex%2520flex-column%2520justify-content-center%2520align-items-center%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522font-size-xl%2522%253ECombo%2520Packs%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-size-md%2522%253EStarting%2520at%2520Rs.1999%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+  
+          <h2 class="font-size-lg">Example of side by side (70:30) layout</h2>
+          <p class="font-size-md">
+            Add
+            <span class="font-weight-700 style-classes">grid-70-30-layout</span>
+            class on wrapper div which is wrapping 2 divs.
+          </p>
+          <div class="component-display-container">
+            <div class="grid-70-30-layout">
+              <div>
+                <img src="./assets/images/natureImg.png" alt="" class="image-responsive" />
+              </div>
+              <div
+                class="display-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 class="font-size-xl text-center">Combo Packs</h1>
+                <p class="font-size-md text-center">Starting at Rs.1999</p>
+                <button class="btn btn-secondary">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-70-30-layout%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FnatureImg.png%2522%2520alt%253D%2522%2522%2520class%253D%2522image-responsive%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522display-flex%2520flex-column%2520justify-content-center%2520align-items-center%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522font-size-xl%2522%253ECombo%2520Packs%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-size-md%2522%253EStarting%2520at%2520Rs.1999%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe
+            ></code>
+          </div>
+  
+          <h2 class="font-size-lg">Example of side by side (30:70) layout</h2>
+          <p class="font-size-md">
+            Add
+            <span class="font-weight-700 style-classes">grid-30-70-layout</span>
+            class on wrapper div which is wrapping 2 divs.
+          </p>
+          <div class="component-display-container">
+            <div class="grid-30-70-layout">
+              <div>
+                <img src="./assets/images/natureImg.png"" alt="" class="image-responsive" />
+              </div>
+              <div
+                class="display-flex flex-column justify-content-center align-items-center"
+              >
+                <h1 class="font-size-xl text-center">Combo Packs</h1>
+                <p class="font-size-md text-center">Starting at Rs.1999</p>
+                <button class="btn btn-secondary">Explore</button>
+              </div>
+            </div>
+          </div>
+          <div class="code-snippet-display">
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=623&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid-30-70-layout%2522%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522.%252FnatureImg.png%2522%2520alt%253D%2522%2522%2520class%253D%2522image-responsive%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522display-flex%2520flex-column%2520justify-content-center%2520align-items-center%2522%253E%250A%2520%2520%2520%2520%253Ch1%2520class%253D%2522font-size-xl%2522%253ECombo%2520Packs%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522font-size-md%2522%253EStarting%2520at%2520Rs.1999%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253EExplore%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
                 sandbox="allow-scripts allow-same-origin"
               >
               </iframe>
