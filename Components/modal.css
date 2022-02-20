@@ -1,0 +1,24 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  max-width: 450px;
+  height: 50vh;
+  background-color: var(--orange-200);
+  position: relative;
+  box-sizing: border-box;
+}
+
+.modal p {
+  margin: 0.5rem 0 1rem;
+}
+
+.modal-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
