@@ -1,0 +1,38 @@
+.toast {
+  display: flex;
+  justify-content: center;
+  padding: 0.75rem;
+  border-radius: 0.31rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+
+.toast > p {
+  margin-right: 0.625rem;
+}
+
+.toast.toast-success {
+  background-color: var(--green-300);
+  color: var(--green-700);
+}
+
+.toast.toast-error {
+  background-color: var(--red-200);
+  color: var(--red-700);
+}
+
+.demo-toast {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  display: none;
+}
+
+.demo-toast .fa-times {
+  cursor: pointer;
+}
+
+.demo-toast-active {
+  display: flex;
+}
