@@ -1,0 +1,10 @@
+.rating-star-icon {
+  cursor: pointer;
+  opacity: 50%;
+  color: var(--blueblack-400);
+}
+
+.rating-star-icon-active {
+  opacity: 100%;
+  color: var(--orange-400);
+}
